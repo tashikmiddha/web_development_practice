@@ -1,0 +1,25 @@
+.digital{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+    background-color: transparent;
+    color:black;
+    margin: 5rem;
+}
+.digital span{
+    box-shadow: 4px 8px 15px whitesmoke;
+    background-color:transparent;
+    border-radius: 20px;
+    margin: 12px;
+    padding: 20px;
+    cursor: pointer;
+}
+.main{
+    min-height: 100vh;
+}
+.display{
+    display: block;
+    box-shadow: 4px 8px 15px white;
+    box-sizing: border-box;
+    padding:50px
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animated webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class="container mx-auto">
+    <header class="flex justify">
+        <div class="flex tittle">Animated Webpage</div>
+        <nav class="flex">
+            <ul class="flex navbu justify">
+                <li class="extra">Home</li>
+                <li class="extra">Vlogs</li>
+                <li class="extra">Contact</li>
+                <button class="extra bor" onclick="myfun()" onmouseenter="document.getElementById('button').style.backgroundColor='green'" onmouseout=" document.getElementById('button').style.backgroundColor='white'" id="button">Sign Up</button>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main >
+        <section class="flex1">
+            <div class="box">erg Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt quas culpa
+                facilis expedita cupiditate alias obcaecati quam delectus soluta.</div>
+            <div class="box">erhhre Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quo sed
+                earum, non odio culpa dolorum optio accusamus esse saepe.</div>
+            <div class="box">erheth Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quo sed
+                earum, non odio culpa dolorum optio accusamus esse saepe.</div>
+        </section>
+        <div  class=" section2" onmouseenter="fun()" onmouseout="fun1()" id="fun">
+            Welcome To My Landing Page
+        </div>
+        <section class="flex1">
+            <div class="box">erg Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt quas culpa
+                facilis expedita cupiditate alias obcaecati quam delectus soluta.</div>
+            <div class="box">erhhre Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quo sed
+                earum, non odio culpa dolorum optio accusamus esse saepe.</div>
+            <div class="box">erheth Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quo sed
+                earum, non odio culpa dolorum optio accusamus esse saepe.</div>
+        </section>
+    </main>
+    <footer></footer>
+    <script type="text/javascript">
+        $(document).ready(function () {
+    $(window).scroll(function () {
+        var positiontop = $(document).scrollTop();
+        console.log(positiontop);
+    });
+     });
+    </script>
+    <script src="java.js"></script>
+
+</body>
+
+</html>

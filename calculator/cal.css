@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg,rgb(37, 33, 33),rgb(104, 104, 129));
+}
+.calculator{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    background: transparent;
+    box-shadow: 0px 3px 15px white;
+}
+input{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    padding:10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: right;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+input::placeholder{
+ color: rgb(248, 240, 240);
+}
+button{
+    border:none;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 1px 4px rgb(64, 62, 60);
+}
+.equ{
+    background-color: rgb(232, 94, 15);
+}

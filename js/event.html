@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+<body>
+    <div> hello brother
+
+    </div>
+    <button onclick="myfun()" >click me </button>
+    <button onmousedown="myfun1()" >click me </button>
+    <button onmouseenter="myfun2()" >click me </button>
+    <button onmouseout="myfun3()" >click me </button>
+    <button onkeypress="myfun4()" >click me </button>
+    <button onkeyup="myfun5()" >click me </button>
+    <script type="text/javascript">
+        function myfun()
+        {
+            document.body.style.backgroundColor ='blue';
+            document.body.style.color='white';
+            
+        }
+
+        function myfun1()
+        {
+            document.body.style.backgroundColor ='black';
+            document.body.style.color='white';
+            
+        }
+        function myfun2()
+        {
+            document.body.style.backgroundColor ='red';
+            document.body.style.color='white';
+            
+        }
+        function myfun3()
+        {
+            document.body.style.backgroundColor ='green';
+            document.body.style.color='white';
+            
+        }
+        function myfun4()
+        {
+            document.body.style.backgroundColor ='orange';
+            document.body.style.color='white';
+            
+        }
+        function myfun5()
+        {
+            document.body.style.backgroundColor ='brown';
+            document.body.style.color='white';
+            
+        }
+    </script>
+</body>
+</html>

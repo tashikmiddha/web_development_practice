@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+</head>
+<body>
+    <h1>clock</h1>
+    <p id="hlo"></p>
+    <script type="text/javascript">
+        var clock=setInterval(clcoktiming,1000);
+        function clcoktiming()
+        {
+            var d=new Date();
+            var thapa=d.toLocaleTimeString();
+            document.getElementById('hlo').innerHTML=thapa;
+        }
+    </script>
+</body>
+</html>

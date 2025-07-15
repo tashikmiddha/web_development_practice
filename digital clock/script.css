@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width:  100vh;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+display: flex;
+justify-content: space-between;
+}
+.box{
+color: black;
+text-align: center;
+font-size: 2rem;
+ box-shadow: 4px 8px 15px white;
+ padding: 20px;
+ margin: 10px;
+ border-radius: 20%;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> digital clock</title>
+    <link rel="stylesheet" href="script.css">
+    <link rel="stylesheet" href="utils.css">
+    
+</head>
+
+<body style="background: linear-gradient(45deg,black,white);">
+    <div class="container mx-auto">
+        <main class="main">
+            <div class="digital">
+                <span> Digital Clock</span>
+            </div>
+            
+            <section class="flex ">
+                <div class="flex box display">Hour
+                    <div id="hour" style="color: white; font-size: 3rem; padding: 3rem;">
+                        <script type="text/javascript">
+                            var clock=setInterval(clocktiming,1000);
+                            function clocktiming()
+                            {
+                            var d=new Date;
+                            var hour=d.getHours(); 
+                            document.getElementById('hour').innerHTML=hour;
+                            }
+                        </script>
+                    </div>
+                </div>
+
+                <div class="flex box display">Minute
+                    <div id="minute" style="color: white; font-size: 3rem; padding: 3rem;">
+                        <script type="text/javascript">
+                            var clock=setInterval(clocktiming,1000);
+                            function clocktiming(){
+                            var d=new Date;
+                            var minutes=d.getMinutes(); 
+                            document.getElementById('minute').innerHTML=minutes;
+                            }
+                        </script>
+                    </div>
+                </div>
+
+                <div class="flex box display" >Second
+                    <div id="second" style="color: white; font-size: 3rem; padding: 3rem;">
+                        
+                        <script type="text/javascript">
+                            var clock=setInterval(clocktiming,1000);
+                            function clocktiming()
+                            {
+                            var d=new Date;
+                            var seconds=d.getSeconds(); 
+                            document.getElementById('second').innerHTML=seconds;
+                            }
+                        </script>
+                    </div>
+                </div>
+            </section>
+            
+            
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>

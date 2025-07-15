@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background: radial-gradient(blue,black);
+}
+.box{
+    display: flex;
+}
+.box .eye{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: white;
+    margin: 0px 20px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 45px white,inset 0px 0px 15px black;
+}
+.box .eye::before{
+    content:'';
+    position:absolute;
+    top:50%;
+    left: 35px;
+    transform: translate(-50%,-50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: black;
+    border: 10px solid rgb(96, 96, 130);
+    box-sizing: border-box;
+
+}
